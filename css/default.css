@@ -1,0 +1,109 @@
+/* Fonts 
+
+font-family: 'Hind', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: monospace;
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* START light mode features */
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.light-mode .social-link>a {
+    color: black;
+}
+
+.light-mode .social-link>a :hover {
+    color: white;
+}
+
+.light-mode footer>a {
+    color: black;
+}
+
+.light-mode .content {
+    color: white;
+}
+
+.light-mode .language-item p {
+    color: white;
+}
+
+.light-mode .language-item:hover p {
+    color: black;
+}
+
+.light-mode .actual-form, footer {
+    color: white;
+
+}
+
+
+
+/* END */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+hr {
+    width: 300px;
+}
+
+input {
+    width: 100%;
+    height: 20px;
+
+}
+
+textarea {
+    margin: auto;
+    resize: none;
+    width: 100%;
+}
+
+
+
+
+footer {
+    /* margin-bottom: 2rem; */
+    margin-top: 300px;
+    text-align: center;
+}
+
+
+
+/* Containers */
+
+/* .page-wrapper {
+    max-width: 1750px;
+    margin: auto;
+} */
+
+.header-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
